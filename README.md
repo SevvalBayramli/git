@@ -177,23 +177,6 @@ $ git log file.txt
     - **`git diff --word-diff-regex=<regex>`** : Değişiklikleri kelime düzeyinde gösterir, ancak belirtilen regex desenine göre kelime seviyesinde ayrıştırma yapar.
     - **`git diff --histogram`** : Değişiklikleri histogram grafiğiyle gösterir.
     - **`git diff --color-words=<regex>`** : Belirtilen regex desenine göre değişiklikleri kelime düzeyinde gösterir.
-    - Git diff komutu, iki commit, iki branch veya bir commit ve çalışma dizini arasındaki farkları gösterir. Bu komutu kullanırken birçok seçenek belirleyebilirsiniz. İşte en yaygın kullanılan seçenekler:
-        - z: Çıktıdaki değişiklikleri NUL karakteri ile biten satırlar şeklinde görüntüler.
-        - p veya -u: Farkı yamalama formatında görüntüler.
-        - -stat: Fark istatistiklerini, yani değişikliklerin sayısını dosya başına gösterir.
-        - -numstat: İstatistikleri, değişikliklerin sayılarını ve dosyadaki eklenen veya silinen satırların sayısını gösterir.
-        - -name-only: Değişen dosyaların adlarını görüntüler.
-        - -name-status: Değişen dosyaların adlarını ve değişiklik türünü (eklendi, silindi, değiştirildi) gösterir.
-        - -full-index: Değişikliklerin tam nesne adlarını gösterir.
-        - -abbrev=<n>: Diff-tree başlığı ve diff-raw'daki nesne adlarını kısaltır.
-        - R: Girdi dosyası çiftlerini ters çevirir, yani farkı alınacak dosya ile karşılaştırılacak dosyaları değiştirir.
-        - B: Tam yeniden yazımları algılamaya çalışır.
-        - M: Dosya yeniden adlandırmalarını algılamaya çalışır.
-        - C: Dosya kopyalarını algılamaya çalışır.
-        - -find-copies-harder: Kopya algılama adayı olarak değişmeyen dosyaları da denemeye çalışır.
-        - l<n>: <n> yol denemesini sınırlandırır.
-        - O<file>: Farklılıkları <file> göre yeniden düzenler.
-        - S<string>: Sadece bir tarafında belirtilen dizeyi içeren dosya çiftlerini bulmaya çalışır.
 
 ```bash
 # sahnedeki dosyaları değiştirilen dosyalarla karşılaştır
